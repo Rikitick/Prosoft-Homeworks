@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/rick/Рабочий стол/Prosoft/dz1/task2"
+CMAKE_SOURCE_DIR = "/home/rick/Рабочий стол/Prosoft/Prosoft-Homeworks/dz1/task2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/rick/Рабочий стол/Prosoft/dz1/task2/build"
+CMAKE_BINARY_DIR = "/home/rick/Рабочий стол/Prosoft/Prosoft-Homeworks/dz1/task2/build"
 
 # Utility rule file for run.
 
@@ -66,7 +66,7 @@ include CMakeFiles/run.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/run.dir/progress.make
 
-CMakeFiles/run: /home/rick/Рабочий\ стол/Prosoft/dz1/task2/main.asm
+CMakeFiles/run: /home/rick/Рабочий\ стол/Prosoft/Prosoft-Homeworks/dz1/task2/main.asm
 	nasm -f elf64 ../main.asm -o main.o -l listing.lst
 	ld -o main main.o
 	strace -o log.txt ./main
@@ -87,6 +87,6 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 CMakeFiles/run.dir/depend:
-	cd "/home/rick/Рабочий стол/Prosoft/dz1/task2/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/rick/Рабочий стол/Prosoft/dz1/task2" "/home/rick/Рабочий стол/Prosoft/dz1/task2" "/home/rick/Рабочий стол/Prosoft/dz1/task2/build" "/home/rick/Рабочий стол/Prosoft/dz1/task2/build" "/home/rick/Рабочий стол/Prosoft/dz1/task2/build/CMakeFiles/run.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/rick/Рабочий стол/Prosoft/Prosoft-Homeworks/dz1/task2/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/rick/Рабочий стол/Prosoft/Prosoft-Homeworks/dz1/task2" "/home/rick/Рабочий стол/Prosoft/Prosoft-Homeworks/dz1/task2" "/home/rick/Рабочий стол/Prosoft/Prosoft-Homeworks/dz1/task2/build" "/home/rick/Рабочий стол/Prosoft/Prosoft-Homeworks/dz1/task2/build" "/home/rick/Рабочий стол/Prosoft/Prosoft-Homeworks/dz1/task2/build/CMakeFiles/run.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/run.dir/depend
 

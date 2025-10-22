@@ -1,4 +1,4 @@
-execve("./main", ["./main"], 0x7ffdd0523b50 /* 53 vars */) = 0
+execve("./main", ["./main"], 0x7ffcd7a07be0 /* 58 vars */) = 0
 open("result.txt", O_WRONLY|O_CREAT|O_NOCTTY, 0600) = 3
 write(3, "Hello! How are you?\n", 20)   = 20
 close(3)                                = 0
