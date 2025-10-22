@@ -7,10 +7,10 @@
 
 ## Архитектура цифровых вычислительных устройств
   ### Прерывания, системные вызовы Linux
-  _Задача 1:_ Пример "Hello world" из презентации нужно улучшить - сделать проверку возвращаемого значения системного вызова write. Вместе с кодом нужно запушить лог strace и листинг.  
-  _Решение:_ [код](dz1/task1/main.asm), [CMake](dz1/task1/CMakeLists.txt), [strace](dz1/task1/build/log.txt), [листинг](dz1/task1/build/listing.lst)  
+  __Задача 1:__ Пример "Hello world" из презентации нужно улучшить - сделать проверку возвращаемого значения системного вызова write. Вместе с кодом нужно запушить лог strace и листинг.  
+  __Решение:__ [код](dz1/task1/main.asm), [CMake](dz1/task1/CMakeLists.txt), [strace](dz1/task1/build/log.txt), [листинг](dz1/task1/build/listing.lst)  
   
-  _Задача 2:_ Вывести "Hello, world" в текстовый файл. Вместе с кодом нужно запушить лог strace и листинг.  
-  _Решение:_ [код](dz1/task2/main.asm), [CMake](dz1/task2/CMakeLists.txt), [strace](dz1/task2/build/log.txt), [листинг](dz1/task2/build/listing.lst), [файл с результатом](dz1/task2/build/result.txt)  
+  __Задача 2:__ Вывести "Hello, world" в текстовый файл. Вместе с кодом нужно запушить лог strace и листинг.  
+  __Решение:__ [код](dz1/task2/main.asm), [CMake](dz1/task2/CMakeLists.txt), [strace](dz1/task2/build/log.txt), [листинг](dz1/task2/build/listing.lst), [файл с результатом](dz1/task2/build/result.txt)  
   
   [К оглавлению](#оглавление)
