@@ -1,6 +1,0 @@
-execve("./main", ["./main"], 0x7ffd5b608560 /* 58 vars */) = 0
-open("result.txt", O_WRONLY|O_CREAT|O_NOCTTY, 0600) = 3
-write(3, "Hello! How are you?\n", 20)   = 20
-close(3)                                = 0
-exit(0)                                 = ?
-+++ exited with 0 +++
