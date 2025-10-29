@@ -1,4 +1,0 @@
-execve("./main", ["./main"], 0x7fffef484ca0 /* 58 vars */) = 0
-write(1, "Hello! How are you?\n", 20)   = 20
-exit(0)                                 = ?
-+++ exited with 0 +++
