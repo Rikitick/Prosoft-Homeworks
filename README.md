@@ -36,6 +36,6 @@
   __Решение:__ [код](dz2/task1/reverse_str.asm), [CMake](dz2/task1/CMakeLists.txt)  
   
   __Задача 2:__ С клавиатуры вводятся 2 числа, нужно посчитать их сумму и вывести на экран  
-  __Решение:__ [код](dz2/task3/sum.asm), [CMake](dz2/task2/CMakeLists.txt)  
+  __Решение:__ [код](dz2/task2/sum.asm), [CMake](dz2/task2/CMakeLists.txt)  
   
   [К оглавлению](#оглавление)
