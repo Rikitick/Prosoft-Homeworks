@@ -42,7 +42,7 @@ _start:
     jl write_failed
     jz write_failed
     cmp rax, length
-    jl partial_write
+    jne partial_write
     
     mov rax, 3                              ; 3 - sys_close
     mov rdi, r8                             ; файловый дескриптор
